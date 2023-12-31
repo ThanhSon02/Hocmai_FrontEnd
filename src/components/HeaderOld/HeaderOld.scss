@@ -1,0 +1,56 @@
+.left-header {
+    .only-search-icon {
+        display: none;
+    }
+    .search-input {
+        border-radius: 6px;
+        padding: 4px 8px;
+        input {
+            outline: none;
+            border: none;
+            margin-right: 4px;
+        }
+    }
+}
+.center-header {
+    background: rgba(0, 0, 0, 0) url("../../assets/logo_mini.png") no-repeat
+        scroll center center;
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+
+.right-header {
+    .pc-action-tool {
+        display: flex;
+    }
+
+    .mobile-action-tool {
+        display: none;
+    }
+
+    .pc-sign-in-up {
+        display: flex;
+    }
+    .mobile-sign-in-up {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .sign-in-btn {
+        padding: 4px 8px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .sign-up-btn {
+        padding: 4px 8px;
+        background-color: #f68b20;
+        border-radius: 3px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

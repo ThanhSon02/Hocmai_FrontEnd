@@ -1,0 +1,117 @@
+.register-container {
+    width: 600px;
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        p {
+            margin: 0;
+            font-size: 13px;
+        }
+    }
+
+    .sso-btn {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        button {
+            width: 100%;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 4px;
+            outline: none;
+            border: none;
+            background-color: #dc4e41;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div {
+                color: #fff;
+                padding: 8px 40px;
+                gap: 12px;
+                display: inherit;
+                align-items: center;
+            }
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .separation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        .line-left,
+        .line-right {
+            width: 45%;
+            border-bottom: 1px solid #a9a9a9;
+        }
+    }
+
+    .form-register {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .name-input,
+        .email-input,
+        .phone-input {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            input {
+                border-radius: 4px;
+                padding: 4px 10px;
+                border: 1px solid #6e6b6b;
+                outline: none;
+            }
+            span {
+                text-align: start;
+                margin-left: 10px;
+                font-size: 14px;
+                color: #a94442;
+            }
+        }
+        .pwd-input {
+            display: flex;
+            justify-content: space-between;
+            div {
+                display: flex;
+                flex-direction: column;
+                width: 46%;
+                input {
+                    border-radius: 4px;
+                    padding: 4px 10px;
+                    border: 1px solid #6e6b6b;
+                    outline: none;
+                }
+                span {
+                    text-align: start;
+                    margin-left: 10px;
+                    font-size: 14px;
+                    color: #a94442;
+                }
+            }
+        }
+
+        .submit-btn {
+            background-color: #03a9f4;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            padding: 6px;
+            margin-top: 10px;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
